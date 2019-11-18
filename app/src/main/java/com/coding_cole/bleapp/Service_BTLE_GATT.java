@@ -37,12 +37,12 @@ public class Service_BTLE_GATT extends Service {
     private static final int STATE_CONNECTING = 1;
     private static final int STATE_CONNECTED = 2;
 
-    public final static String ACTION_GATT_CONNECTED = "android.kaviles.bletutorial.Service_BTLE_GATT.ACTION_GATT_CONNECTED";
-    public final static String ACTION_GATT_DISCONNECTED = "android.kaviles.bletutorial.Service_BTLE_GATT.ACTION_GATT_DISCONNECTED";
-    public final static String ACTION_GATT_SERVICES_DISCOVERED = "android.kaviles.bletutorial.Service_BTLE_GATT.ACTION_GATT_SERVICES_DISCOVERED";
-    public final static String ACTION_DATA_AVAILABLE = "android.kaviles.bletutorial.Service_BTLE_GATT.ACTION_DATA_AVAILABLE";
-    public final static String EXTRA_UUID = "android.kaviles.bletutorial.Service_BTLE_GATT.EXTRA_UUID";
-    public final static String EXTRA_DATA = "android.kaviles.bletutorial.Service_BTLE_GATT.EXTRA_DATA";
+    public final static String ACTION_GATT_CONNECTED = "com.coding_cole.bleapp.Service_BTLE_GATT.ACTION_GATT_CONNECTED";
+    public final static String ACTION_GATT_DISCONNECTED = "com.coding_cole.bleapp.Service_BTLE_GATT.ACTION_GATT_DISCONNECTED";
+    public final static String ACTION_GATT_SERVICES_DISCOVERED = "com.coding_cole.bleapp.Service_BTLE_GATT.ACTION_GATT_SERVICES_DISCOVERED";
+    public final static String ACTION_DATA_AVAILABLE = "com.coding_cole.bleapp.Service_BTLE_GATT.ACTION_DATA_AVAILABLE";
+    public final static String EXTRA_UUID = "com.coding_cole.bleapp.Service_BTLE_GATT.EXTRA_UUID";
+    public final static String EXTRA_DATA = "com.coding_cole.bleapp.Service_BTLE_GATT.EXTRA_DATA";
 
 
     // Implements callback methods for GATT events that the app cares about.  For example,
