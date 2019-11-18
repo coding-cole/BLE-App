@@ -101,17 +101,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
-
         // Check which request we're responding to
-        super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_ENABLE_BT) {
             // Make sure the request was successful
             if (resultCode == RESULT_OK) {
 //                Utils.toast(getApplicationContext(), "Thank you for turning on Bluetooth");
-            } else if (resultCode == RESULT_CANCELED) {
+            }
+            else if (resultCode == RESULT_CANCELED) {
                 Utils.toast(getApplicationContext(), "Please turn on Bluetooth");
             }
-        } else if (requestCode == BTLE_SERVICES) {
+        }
+        else if (requestCode == BTLE_SERVICES) {
             // Do something
         }
     }
