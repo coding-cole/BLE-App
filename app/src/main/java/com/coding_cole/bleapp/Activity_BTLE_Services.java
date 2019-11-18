@@ -84,7 +84,7 @@ public class Activity_BTLE_Services extends AppCompatActivity implements Expanda
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity__btle__services);
+        setContentView(R.layout.content_activity__btle__services);
 
         Intent intent = getIntent();
         name = intent.getStringExtra(Activity_BTLE_Services.EXTRA_NAME);
